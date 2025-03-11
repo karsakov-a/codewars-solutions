@@ -1,0 +1,1 @@
+{'slug': 'return-negative', 'name': 'Return Negative', 'language': 'python', 'completed_at': '2025-03-11T16:18:19.211Z'}
