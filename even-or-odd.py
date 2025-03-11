@@ -1,0 +1,1 @@
+{'slug': 'even-or-odd', 'name': 'Even or Odd', 'language': 'python', 'completed_at': '2025-03-11T16:07:52.166Z'}

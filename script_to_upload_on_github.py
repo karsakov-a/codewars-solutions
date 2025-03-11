@@ -1,6 +1,6 @@
 import requests
 import os
-from git import Repo  # Импортируем Repo из gitpython
+from git import Repo
 
 
 # Константы
