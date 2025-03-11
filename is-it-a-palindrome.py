@@ -1,0 +1,1 @@
+{'slug': 'is-it-a-palindrome', 'name': 'Is it a palindrome?', 'language': 'python', 'completed_at': '2025-03-06T07:22:16.831Z'}
