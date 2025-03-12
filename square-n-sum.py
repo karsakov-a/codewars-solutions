@@ -1,0 +1,1 @@
+{'slug': 'square-n-sum', 'name': 'Square(n) Sum', 'language': 'python', 'completed_at': '2025-03-12T04:32:09.802Z'}
