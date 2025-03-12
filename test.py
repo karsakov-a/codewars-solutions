@@ -6,8 +6,12 @@ def square_sum(square_sum):
     lst2 = []
     for word in lst:
         if len(word) >= 5:
-            lst.append(word[::-1])
-        print(lst2)
+            lst2.append(word[::-1])
+        else:
+            lst2.append(word)
+    str = ' '.join(lst2)
+
+    print(str)
 
 
 square_sum("Hey fellow warriors")
