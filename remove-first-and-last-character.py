@@ -1,0 +1,1 @@
+{'slug': 'remove-first-and-last-character', 'name': 'Remove First and Last Character', 'language': 'python', 'completed_at': '2025-03-13T10:52:17.895Z'}
