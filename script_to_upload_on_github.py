@@ -85,10 +85,9 @@ def main():
 def commit_to_github():
     try:
         print("Инициализация Git-репозитория...")
-        
-        # Проверяем, существует ли уже репозиторий
-        if os.path.exists(os.path.join(GIT_REPO_PATH, ".git")):
-            repo = Repo(GIT_REPO_PATH)
+        repo = Repo(GIT_REPO_PATH)
+
+        if not repo.bare:
             print("Репозиторий уже существует. Добавление изменений...")
         else:
             print("Инициализация нового репозитория...")
@@ -105,9 +104,10 @@ def commit_to_github():
             print("Настройка удаленного репозитория...")
             repo.create_remote("origin", GIT_REPO_URL)
 
-        # Выполняем push
-        print("Отправка изменений в GitHub...")
+        # Синхронизация с удаленным репозиторием
+        print("Синхронизация с удаленным репозиторием...")
         remote = repo.remote(name="origin")
+        remote.pull()  # Добавляем pull для синхронизации
         remote.push(refspec=f"HEAD:main", set_upstream=True)  # Явно указываем ветку main
 
         print("Успешно отправлено в GitHub!")
