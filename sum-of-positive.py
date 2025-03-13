@@ -1,1 +1,0 @@
-{'slug': 'sum-of-positive', 'name': 'Sum of positive', 'language': 'python', 'completed_at': '2025-03-11T16:23:30.017Z'}
