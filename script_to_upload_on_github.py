@@ -117,3 +117,19 @@ def commit_to_github():
 
 if __name__ == "__main__":
     main()
+
+
+
+def alphabet_position(text):
+        # Словарь для отображения букв в их позиции
+    alphabet = {chr(i + 96): i for i in range(1, 27)}
+    
+    # Заменяем буквы на их позиции и игнорируем всё остальное
+    result = [
+        str(alphabet[char.lower()]) 
+        for char in text 
+        if char.lower() in alphabet
+    ]
+    
+    # Возвращаем строку с числами через пробел
+    return " ".join(result)
