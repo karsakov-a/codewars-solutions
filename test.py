@@ -1,7 +1,6 @@
-a = int(input())
-# astr = str(a)
-# astr1 = astr[0]
-print(str(a[3201]))
+numb1 = int(input())
+numb = str(numb1)
+print(numb[0][2])
 
 
 
