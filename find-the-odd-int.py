@@ -1,0 +1,1 @@
+{'slug': 'find-the-odd-int', 'name': 'Find the odd int', 'language': 'python', 'completed_at': '2025-04-25T08:02:02.096Z'}
